@@ -1,0 +1,23 @@
+.hero_area {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.bg-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.bg-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
